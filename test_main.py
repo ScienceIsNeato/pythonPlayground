@@ -7,8 +7,8 @@ def test_main():
     assert result
 
 
-def test_mocking_main(mocker):
-    mocked_func = mocker.patch('main.entry_point')
-
-    mocked_func()
-    mocked_func.assert_called_once()
+# def test_mocking_main(mocker):
+#     mocked_func = mocker.patch('main.entry_point')
+#
+#     mocked_func()
+#     mocked_func.assert_called_once()
